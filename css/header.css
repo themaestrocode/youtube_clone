@@ -1,0 +1,92 @@
+.navbar {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  /* background-color: aqua; */
+  width: 182px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.hamburger-menu {
+  height: 24px;
+  margin-left: 22px;
+}
+
+.youtube-logo {
+  height: 22px;
+  margin-left: 20px;
+}
+
+#ng {
+  font-size: 0.7rem;
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+
+.mid {
+  /* background-color: aqua; */
+  flex: 1;
+  margin: 0 154px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  
+  /* max-width: 800px; */
+}
+
+.search-bar {
+  height: 36px;
+  flex: 1;
+  padding-left: 14px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 1px solid lightgray;
+  box-shadow: inset 1px, 2px, 5px rgba(0, 0, 0, 0.15);
+  width: 0; /* this makes the search bar shrink all the way to invisibility*/
+}
+
+.search-icon {
+  height: 24px;
+  background-color: rgb(245, 245, 245);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 7px 16px;
+  border: 1px solid lightgray;
+  margin-left: -1px;
+}
+
+.voice-search-icon {
+  height: 24px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 50px;
+  margin-left: 14px;
+  padding: 9px;
+}
+
+.right {
+  /* background-color: aqua; */
+  width: 148px;
+  display: flex;
+  align-items: center;
+}
+
+.sign-in {
+  font-size: 0.9rem;
+  margin-left: 28px;
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  width: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px 6px 8px;
+}
+
+.key {
+  height: 24px;
+}
