@@ -1,6 +1,9 @@
 body {
+  /* background-color: black; */
   margin: 0;
   font-family: Roboto, Arial;
   margin-bottom: 1000px;
   font-size: 16px;
+  padding-top: 115px;
+  padding-left: 100px;
 }

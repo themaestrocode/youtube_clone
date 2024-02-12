@@ -1,19 +1,30 @@
 .categories {
-  /* background-color: aquamarine; */
-  margin-left: 85px;
-  height: 50px;
+  background-color: white;
+  height: 58px;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 55px;
+  left: 100px;
+  right: 0px;
+  z-index: 100;
 }
 
 .category-items {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(235, 235, 235);
   font-size: 0.9rem;
   font-weight: 600;
-  margin: 7px;
+  margin-top: 7px;
+  margin-right: 12px;
+  margin-bottom: 7px;
   padding: 7px 12px;
   border-radius: 8px;
   text-wrap: nowrap;
+}
+
+.category-items:hover {
+  cursor: pointer;
+  background-color: rgb(210, 210, 210);
 }
 
 #all {

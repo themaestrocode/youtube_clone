@@ -10,29 +10,61 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/sidebar.css">
   <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/video.css">
 </head>
 
 <body>
-  <div class="navbar">
+  <header class="header">
     <div class="left">
       <!-- <div> -->
-        <img class="hamburger-menu" src="images/icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="images/icons/youtube-logo.svg">
-        <span id="ng">NG</span>
+      <img class="hamburger-menu" src="images/icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="images/icons/youtube-logo.svg">
+      <span id="ng">NG</span>
       <!-- </div> -->
     </div>
     <div class="mid">
       <input class="search-bar" type="text" placeholder="Search" style="font-size: 16px;">
       <img class="search-icon" src="images/icons/search.svg">
-      <img class="voice-search-icon" src="images/icons/voice-search-icon.svg">
+      <button class="voice-search-icon-button">
+        <img class="voice-search-icon" src="images/icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+
     </div>
     <div class="right">
       <div class="sign-in">
         <img class="key" src="images/icons/key.png">
-        <span class="sign-in-text" style="color: blue;"><b>Sign in</b></span>
+        <span class="sign-in-text" style="color: rgb(56, 1, 146);"><b>Sign in</b></span>
       </div>
     </div>
-  </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="images/icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/library.svg">
+      <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/icons/youtube-music.svg">
+      <div>Youtube Music</div>
+    </div>
+  </nav>
 
   <div class="categories">
     <div id="all" class="category-items">All</div>
@@ -48,13 +80,105 @@
     <!-- <div class="category-items">Football highlights</div> -->
   </div>
 
-  <div class="sidebar">
-    sidebar
-  </div>
+  <main>
+    <section class="video-container">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/hq720.webp" alt="video-thumbnail">
+          <div class="video-time">6:20</div>
+        </div>
+        <div class="video-details">
+          <img class="author-dp" src="images/profile_photos/unnamed.jpg">
+          <div class="actual-video-details">
+            <p class="video-title">Match Chain Reaction VOLCANO ERUPTION Amazing Fire Domino</p>
+            <p class="video-author">Interesting as FCK</p>
+            <p class="video-stats">10M views . 11 months ago</p>
+          </div>
+        </div>
+      </div>
 
-  <div class="video-div">
-    video
-  </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/hq720 (1).webp" alt="video-thumbnail">
+          <div class="video-time">11:00</div>
+        </div>
+
+        <div class="video-details">
+          <img class="author-dp" src="images/profile_photos/channels4_profile (1).jpg">
+          <div class="actual-video-details">
+            <p class="video-title">Match Chain Reaction VOLCANO ERUPTIONMatch Chain Reaction VOLCANO ERUPTION</p>
+            <p class="video-author">Interesting as FCK</p>
+            <p class="video-stats">10M views . 11 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/hq720 (2).webp" alt="video-thumbnail">
+          <div class="video-time">2:37:45</div>
+        </div>
+
+        <div class="video-details">
+          <img class="author-dp" src="images/profile_photos/channels4_profile (2).jpg">
+          <div class="actual-video-details">
+            <p class="video-title">Match Chain Reaction VOLCANO ERUPTION</p>
+            <p class="video-author">Interesting as FCK</p>
+            <p class="video-stats">10M views . 11 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/hq720 (3).webp" alt="video-thumbnail">
+          <div class="video-time">52:40</div>
+        </div>
+
+        <div class="video-details">
+          <img class="author-dp" src="images/profile_photos/channels4_profile (3).jpg">
+          <div class="actual-video-details">
+            <p class="video-title">Match Chain Reaction VOLCANO ERUPTION</p>
+            <p class="video-author">Interesting as FCK</p>
+            <p class="video-stats">10M views . 11 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/hq720 (4).webp" alt="video-thumbnail">
+          <div class="video-time">10:30:00</div>
+        </div>
+
+        <div class="video-details">
+          <img class="author-dp" src="images/profile_photos/channels4_profile (4).jpg">
+          <div class="actual-video-details">
+            <p class="video-title">Match Chain Reaction VOLCANO ERUPTION</p>
+            <p class="video-author">Interesting as FCK</p>
+            <p class="video-stats">10M views . 11 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/thumbnails/hq720 (5).webp" alt="video-thumbnail">
+          <div class="video-time">27:16</div>
+        </div>
+
+        <div class="video-details">
+          <img class="author-dp" src="images/profile_photos/channels4_profile.jpg">
+          <div class="actual-video-details">
+            <p class="video-title">Match Chain Reaction VOLCANO ERUPTION</p>
+            <p class="video-author">Interesting as FCK</p>
+            <p class="video-stats">10M views . 11 months ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
 </body>
 
 </html>

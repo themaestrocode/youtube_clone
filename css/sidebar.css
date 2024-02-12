@@ -1,4 +1,33 @@
 .sidebar {
-  background-color: lightpink;
+  padding-top: 4px;
   position: fixed;
+  left: 0;
+  top: 55px;
+  /* bottom: 0; */
+  width: 100px;
+}
+
+.sidebar-link {
+  height: 75px;
+  margin-left: 4px;
+  margin-right: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 12px;
+}
+
+.sidebar-link img {
+  width: 24px;
+  margin-bottom: 10px;
+}
+
+.sidebar-link div {
+  font-size: 0.6rem;
 }
